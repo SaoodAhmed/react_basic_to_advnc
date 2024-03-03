@@ -18,6 +18,9 @@ import FoodRecipes from "./renderingListTasks/foodRecipes";
 import Tea from "./renderingListTasks/pureCom/tea";
 import Cups from "./renderingListTasks/pureCom/cups";
 import ExportFunction from "./renderingListTasks/renderingList/exportFunction";
+import RenderinList2 from "./renderingListTasks/renderinList2";
+import Accordian from "./Accordian/accordian";
+import AddElement from "./interactivity/addElement";
 
 export default function Home() {
   return (
@@ -112,8 +115,21 @@ export default function Home() {
       <div>
         <Tea />
       </div>
+
       <div>
         <Cups />
+      </div>
+
+      <div>
+        <RenderinList2 />
+      </div>
+
+      <div>
+        <Accordian />
+      </div>
+
+      <div>
+        <AddElement/>
       </div>
     </div>
   );
