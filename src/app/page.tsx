@@ -21,116 +21,121 @@ import ExportFunction from "./renderingListTasks/renderingList/exportFunction";
 import RenderinList2 from "./renderingListTasks/renderinList2";
 import Accordian from "./Accordian/accordian";
 import AddElement from "./interactivity/addElement";
+import ResponsiveNav from "./responsiveNav";
 
 export default function Home() {
   return (
-    <div className="min-h-screen flex flex-col gap-y-8 justify-center items-center">
-      <Avatar person={{ name: "Saud Ahmed", imageId: "YfeOqp2s" }} />
-      <Avatar person={{ name: "Saud Ahmed", imageId: "YfeOqp2s" }} size={80} />
-      <Avatar person={{ name: "Saud Ahmed", imageId: "YfeOqp2s" }} size={50} />
+    // <div className="min-h-screen flex flex-col gap-y-8 justify-center items-center">
+    //   <Avatar person={{ name: "Saud Ahmed", imageId: "YfeOqp2s" }} />
+    //   <Avatar person={{ name: "Saud Ahmed", imageId: "YfeOqp2s" }} size={80} />
+    //   <Avatar person={{ name: "Saud Ahmed", imageId: "YfeOqp2s" }} size={50} />
 
-      <div>
-        <Person name="Saud Ahmed" city="Hyderabad" />
-      </div>
+    //   <div>
+    //     <Person name="Saud Ahmed" city="Hyderabad" />
+    //   </div>
 
-      <div>
-        <AvatarCard person={{ name: "Saud Ahmed", imageId: "YfeOqp2s" }} />
-        <AvatarCard
-          person={{ name: "Saud Ahmed", imageId: "YfeOqp2s" }}
-          size={80}
-        />
-        <AvatarCard
-          person={{ name: "Saud Ahmed", imageId: "YfeOqp2s" }}
-          size={50}
-        />
-      </div>
+    //   <div>
+    //     <AvatarCard person={{ name: "Saud Ahmed", imageId: "YfeOqp2s" }} />
+    //     <AvatarCard
+    //       person={{ name: "Saud Ahmed", imageId: "YfeOqp2s" }}
+    //       size={80}
+    //     />
+    //     <AvatarCard
+    //       person={{ name: "Saud Ahmed", imageId: "YfeOqp2s" }}
+    //       size={50}
+    //     />
+    //   </div>
 
-      <div>
-        <Profile
-          name={"Ayesha"}
-          imageId={"YfeOqp2"}
-          profession="Software Engineer"
-          discovery="Medical GPT's"
-          award={["Nobel Prize in Web-dev", "Davy Medal", "Matteucci Medal"]}
-        />
-        <Profile
-          name={"Zuniraa"}
-          imageId={"szV5sdG"}
-          profession="Software Engineer"
-          discovery="Medical GPT's"
-          award={["Nobel Prize in Soft-Engr.", "Davy Medal", "Matteucci Medal"]}
-        />
-      </div>
+    //   <div>
+    //     <Profile
+    //       name={"Ayesha"}
+    //       imageId={"YfeOqp2"}
+    //       profession="Software Engineer"
+    //       discovery="Medical GPT's"
+    //       award={["Nobel Prize in Web-dev", "Davy Medal", "Matteucci Medal"]}
+    //     />
+    //     <Profile
+    //       name={"Zuniraa"}
+    //       imageId={"szV5sdG"}
+    //       profession="Software Engineer"
+    //       discovery="Medical GPT's"
+    //       award={["Nobel Prize in Soft-Engr.", "Davy Medal", "Matteucci Medal"]}
+    //     />
+    //   </div>
 
-      <div>
-        <Sendmessage />
-      </div>
+    //   <div>
+    //     <Sendmessage />
+    //   </div>
 
-      <div>
-        <Sendmessageadv />
-      </div>
+    //   <div>
+    //     <Sendmessageadv />
+    //   </div>
 
-      <div>
-        <TrafficLight />
-      </div>
+    //   <div>
+    //     <TrafficLight />
+    //   </div>
 
-      <div>
-        <Form />
-      </div>
+    //   <div>
+    //     <Form />
+    //   </div>
 
-      <div>
-        <Formredundant />
-      </div>
+    //   <div>
+    //     <Formredundant />
+    //   </div>
 
-      <div>
-        <RemoveFormRedundancy />
-      </div>
+    //   <div>
+    //     <RemoveFormRedundancy />
+    //   </div>
 
-      <div>
-        <SharingState />
-      </div>
+    //   <div>
+    //     <SharingState />
+    //   </div>
 
-      <div>
-        <Fullchatapp />
-      </div>
+    //   <div>
+    //     <Fullchatapp />
+    //   </div>
 
-      <Age />
+    //   <Age />
 
-      <div>
-        <RenderingList />
-      </div>
+    //   <div>
+    //     <RenderingList />
+    //   </div>
 
-      <div>
-        <RenderingListTasks />
-      </div>
+    //   <div>
+    //     <RenderingListTasks />
+    //   </div>
 
-      <div>
-        <FoodRecipes />
-      </div>
+    //   <div>
+    //     <FoodRecipes />
+    //   </div>
 
-      <div>
-        <ExportFunction />
-      </div>
+    //   <div>
+    //     <ExportFunction />
+    //   </div>
 
-      <div>
-        <Tea />
-      </div>
+    //   <div>
+    //     <Tea />
+    //   </div>
 
-      <div>
-        <Cups />
-      </div>
+    //   <div>
+    //     <Cups />
+    //   </div>
 
-      <div>
-        <RenderinList2 />
-      </div>
+    //   <div>
+    //     <RenderinList2 />
+    //   </div>
 
-      <div>
-        <Accordian />
-      </div>
+    //   <div>
+    //     <Accordian />
+    //   </div>
 
-      <div>
-        <AddElement/>
-      </div>
+    //   <div>
+    //     <AddElement/>
+    //   </div>
+    // </div>
+
+    <div>
+      <ResponsiveNav/>
     </div>
   );
 }
