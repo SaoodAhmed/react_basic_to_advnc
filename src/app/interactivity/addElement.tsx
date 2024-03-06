@@ -34,6 +34,8 @@ const AddElement = () => {
             artists.map((artist:ArtistsArrayType)=>(
                 <li key={artist.id}>
                     {artist.name}
+                    <button onClick={()=>setArtists(artists.filter((item:any)=>item.id !== artist.id))}>Delete</button>
+                            
                 </li>
             ))
         }

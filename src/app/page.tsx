@@ -22,6 +22,8 @@ import RenderinList2 from "./renderingListTasks/renderinList2";
 import Accordian from "./Accordian/accordian";
 import AddElement from "./interactivity/addElement";
 import ResponsiveNav from "./responsiveNav";
+import Gallery from "./gallery/gallery";
+import RemoveElement from "./interactivity/removeElement";
 
 export default function Home() {
   return (
@@ -129,13 +131,19 @@ export default function Home() {
     //     <Accordian />
     //   </div>
 
-    //   <div>
-    //     <AddElement/>
-    //   </div>
     // </div>
 
-    <div>
-      <ResponsiveNav/>
-    </div>
+    // <div>
+    //   <ResponsiveNav/>
+    // </div>
+      <div>
+        <AddElement/>
+        <RemoveElement/>
+      </div>
+
+
+    // <div>
+    //   <Gallery/>
+    // </div>
   );
 }
