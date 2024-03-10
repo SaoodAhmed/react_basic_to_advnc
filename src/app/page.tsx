@@ -24,6 +24,7 @@ import AddElement from "./interactivity/addElement";
 import ResponsiveNav from "./responsiveNav";
 import Gallery from "./gallery/gallery";
 import RemoveElement from "./interactivity/removeElement";
+import UpdateObject from "./objectUpdate/object";
 
 export default function Home() {
   return (
@@ -136,10 +137,17 @@ export default function Home() {
     // <div>
     //   <ResponsiveNav/>
     // </div>
+
+      // <div>
+      //   <AddElement/>
+      //   <RemoveElement/>
+      // </div>
+
       <div>
-        <AddElement/>
-        <RemoveElement/>
+        <UpdateObject/>
       </div>
+
+
 
 
     // <div>
